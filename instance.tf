@@ -24,7 +24,7 @@ terraform {
 
 
 resource "aws_instance" "web" {
-  ami           = "ami-3d825447"
+  ami           = "ami-0c322300a1dd5dc79"
   instance_type = "t2.micro"
 
   tags = {
